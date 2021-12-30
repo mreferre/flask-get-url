@@ -12,9 +12,12 @@ This is a classic Python application.
 
 It can be launched with: 
 ```
+export URL=www.google.com #optional 
 pip install -r requirements.txt 
 python app.py 
 ```
+
+Note that setting the `URL` variable is optional (by default the application will point to `it20.info`). 
 
 This application has been tested with `Python3` only. 
 
